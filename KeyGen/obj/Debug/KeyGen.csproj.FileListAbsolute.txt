@@ -1,0 +1,10 @@
+C:\Users\Luciano\source\repos\RTS\KeyGen\bin\Debug\KeyGen.exe.config
+C:\Users\Luciano\source\repos\RTS\KeyGen\bin\Debug\KeyGen.exe
+C:\Users\Luciano\source\repos\RTS\KeyGen\bin\Debug\KeyGen.pdb
+C:\Users\Luciano\source\repos\RTS\KeyGen\obj\Debug\KeyGen.csprojAssemblyReference.cache
+C:\Users\Luciano\source\repos\RTS\KeyGen\obj\Debug\KeyGen.Properties.Resources.resources
+C:\Users\Luciano\source\repos\RTS\KeyGen\obj\Debug\KeyGen.csproj.GenerateResource.cache
+C:\Users\Luciano\source\repos\RTS\KeyGen\obj\Debug\KeyGen.csproj.CoreCompileInputs.cache
+C:\Users\Luciano\source\repos\RTS\KeyGen\obj\Debug\KeyGen.exe
+C:\Users\Luciano\source\repos\RTS\KeyGen\obj\Debug\KeyGen.pdb
+C:\Users\Luciano\source\repos\RTS\KeyGen\obj\Debug\KeyGen.Form_Main.resources
