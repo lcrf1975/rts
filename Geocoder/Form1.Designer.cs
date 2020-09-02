@@ -127,6 +127,7 @@ namespace Geocoder
             this.columnHeader_LON,
             this.columnHeader_CREATION_DATE});
             this.listView_LOCATIONS.FullRowSelect = true;
+            this.listView_LOCATIONS.HideSelection = false;
             this.listView_LOCATIONS.LabelWrap = false;
             this.listView_LOCATIONS.Location = new System.Drawing.Point(5, 19);
             this.listView_LOCATIONS.MultiSelect = false;
@@ -708,11 +709,11 @@ namespace Geocoder
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Yellow;
-            this.label1.Location = new System.Drawing.Point(304, 1);
+            this.label1.Location = new System.Drawing.Point(400, 1);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(137, 15);
+            this.label1.Size = new System.Drawing.Size(41, 15);
             this.label1.TabIndex = 8;
-            this.label1.Text = "INTERNAL USE ONLY";
+            this.label1.Text = "BETA";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox_LOGO

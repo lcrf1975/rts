@@ -1,5 +1,12 @@
-﻿Omnitracs Roadnet Transportation Suite
-External Geocoder Release Notes:
+﻿Omnitracs Roadnet Transportation Suite External Geocoder
 
-Version 1.0.1 - June 2018
-> Initial version.
+Release Notes:
+
+Version 1.0.3 (Beta) - March 2019
+> Oracle 12c Compability.
+
+Version 1.0.2 (Beta) - September 2018
+> Bug Fixes.
+
+Version 1.0.1 (Beta) - June 2018
+> Initial Version

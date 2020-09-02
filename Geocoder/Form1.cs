@@ -1,6 +1,8 @@
 using System;
 using System.Configuration;
 using System.Data.Odbc;
+using System.Globalization;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace Geocoder
@@ -844,6 +846,10 @@ namespace Geocoder
 
         private void Form_Main_Load(object sender, EventArgs e)
         {
+            CultureInfo NewCultureInfo = (CultureInfo)CultureInfo.CurrentCulture.Clone();
+            NewCultureInfo.DateTimeFormat.ShortDatePattern = "dd/MM/yyyy";
+            Thread.CurrentThread.CurrentCulture = NewCultureInfo;
+
             if (DSN_Connect())
             {
                 Global.Options_Saved = false;
@@ -892,10 +898,11 @@ namespace Geocoder
             panel_FILTER.Enabled = false;
 
             string KEY = ConfigurationManager.AppSettings["LicenseKey"].Trim();
-            DateTime EXP_DT = DateTime.Parse(Util.Services.Decrypt(KEY));
 
             if (KEY.Length == 64)
             {
+                DateTime EXP_DT = Convert.ToDateTime (Util.Services.Decrypt(KEY));
+
                 DateTime TODAY = DateTime.Today;
                 DateTime SYS_DT = DateTime.Today;
 
